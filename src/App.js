@@ -56,6 +56,11 @@ function App() {
               </select>
               <br></br>
             </row>
+            <row>
+              <br></br>
+              <input type="submit" value="Submit"></input>
+              <br></br>
+            </row>
           </column>
         </table>
         {/* <p>
