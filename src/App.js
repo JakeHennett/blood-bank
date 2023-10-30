@@ -6,6 +6,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <table>
+          <p>
+            Enter donor and recipient information below.
+          </p>
+          <column>
+          Column 1 text
+          </column>
+          <column>
+          Column 2 text
+          </column>
+        </table>
+        <p>
+          Jake added some text here.
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
