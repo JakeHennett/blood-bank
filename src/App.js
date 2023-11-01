@@ -1,6 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
 
+function Submit(){
+  var response = "test"
+  alert(response);
+  return (
+    response
+      // var response =
+      //     "Requested " + document.getElementById("party-size").value
+      //     + " ticket(s) on " + document.getElementById("travel-date").value
+      //     + " from " + document.getElementById("departure").value
+      //     + " to " + document.getElementById("arrival").value
+      //     + "."
+      // alert(response);
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -58,7 +73,9 @@ function App() {
             </row>
             <row>
               <br></br>
-              <input type="submit" value="Submit"></input>
+              <input type="submit" value="Submit">
+                {/* alert(Submit()) */}
+                </input>
               <br></br>
             </row>
           </column>
@@ -78,6 +95,8 @@ function App() {
           Learn React
         </a> */}
       </header>
+      <script type="text/javascript">
+      </script>
     </div>
   );
 }
